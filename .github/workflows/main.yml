@@ -1,4 +1,4 @@
-name: Auto-generate Jio Files
+name: Auto-generate Crichd Files
 
 on:
   schedule:
