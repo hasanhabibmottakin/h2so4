@@ -1,45 +1,45 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ptvpk" tvg-logo="https://crichdi.com/assets/uploads/channels/18.png", PTV Sports
-https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=3oSg4OEYuqtI1NkPFnm4Aw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=FvUIK4FUDAjHN424dw_Rhw&expires=1760059023
 #EXTINF:-1 tvg-id="star" tvg-logo="https://crichdi.com/assets/uploads/channels/19.png", Star sports 1 HD
-https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=YeE8qL-fGC_nq1rstX7-xA&expires=1760056801
+https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=e_yq--GjAPutRNpnYcwjag&expires=1760059023
 #EXTINF:-1 tvg-id="star1hi" tvg-logo="https://crichdi.com/assets/uploads/channels/19.png", Star sports 1 Hindi HD
-https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=T0Gt5BPUAO2RjdjwNsl3uw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=i__FTpGrYXWcUVTSAVtweQ&expires=1760059023
 #EXTINF:-1 tvg-id="sonyten1" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png", Sony Ten 1
-https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=RZrFrbCyPv-zeIXqp1f8ZA&expires=1760056801
+https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=IUrwq5OO-4G5gwqS_qJSyQ&expires=1760059022
 #EXTINF:-1 tvg-id="sonymax" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png", Sony Ten 3
-https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=Ovy5UN4TQoEx3FFtSGpXwg&expires=1760056801
+https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=bYj8wUTH-WIck30cvmkE2w&expires=1760059023
 #EXTINF:-1 tvg-id="willowcricket" tvg-logo="https://crichdi.com/assets/uploads/channels/20.png", Willow Cricket
-https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=0UHlJy0n92TYX_eT1enlTw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=6wWZrcs9z0YKgry0jLIa9w&expires=1760059023
 #EXTINF:-1 tvg-id="willowextra" tvg-logo="https://crichdi.com/assets/uploads/channels/55.png", Willow Extra
-https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=PTMz-BYYPoWFbjTv6Id-3g&expires=1760056801
+https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=Uv41t78k0kyKsdaxph-aCQ&expires=1760059023
 #EXTINF:-1 tvg-id="asportshd" tvg-logo="https://crichdi.com/assets/uploads/channels/56.png", A Sports HD
-https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=d10BCX8hWuOr7uu-8Zu_eQ&expires=1760056801
+https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=b4MLirYxa4rwWWFoJcqGog&expires=1760059023
 #EXTINF:-1 tvg-id="sscricket" tvg-logo="https://crichdi.com/assets/uploads/channels/50.gif", Super Cricket
-https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=9BG32Iryan5S7gVlgfoFsQ&expires=1760056801
+https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=kBKbOpmQ04wNQMh4xuJIlQ&expires=1760059023
 #EXTINF:-1 tvg-id="skys1" tvg-logo="https://crichdi.com/assets/uploads/channels/137.png", Sky Sports 1
-https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=6iieQNiVIz1N5LbU4uGu9Q&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=i-IjSo_aWFF5pIpHUCmiyg&expires=1760059023
 #EXTINF:-1 tvg-id="skys2" tvg-logo="https://crichdi.com/assets/uploads/channels/138.png", Sky Sports 2
-https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=W2kajIKawaNCWpCyHMy17A&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=BqTK29twaTeRYOedPEtz7Q&expires=1760059023
 #EXTINF:-1 tvg-id="skys3" tvg-logo="https://crichdi.com/assets/uploads/channels/144.png", Sky Sports 3
-https://d15.epicquesthero.com:999/hls/skysact.m3u8?md5=xm2QK8UV4ZAD-4SLaTJcdg&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skysact.m3u8?md5=iULEJGWAcY2h5hrp3A0khQ&expires=1760059023
 #EXTINF:-1 tvg-id="skys4" tvg-logo="https://crichdi.com/assets/uploads/channels/139.png", Sky Sports 4
-https://d15.epicquesthero.com:999/hls/skysgol.m3u8?md5=sRhdIBYwz_6VaYmnhRecvg&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skysgol.m3u8?md5=SF1RWFZPoBZ7-XMLVV131Q&expires=1760059023
 #EXTINF:-1 tvg-id="skys5" tvg-logo="https://crichdi.com/assets/uploads/channels/140.png", Sky Sports 5
-https://d15.epicquesthero.com:999/hls/skysprem.m3u8?md5=rFpWD6DCrmDIOuJIdAOPhw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skysprem.m3u8?md5=fY9i6XWFvFMfu82jUR96-g&expires=1760059023
 #EXTINF:-1 tvg-id="skystennis" tvg-logo="https://crichdi.com/assets/uploads/channels/12.gif", Skys Tennis
-https://d15.epicquesthero.com:999/hls/skystennis.m3u8?md5=8vE9iF10dYAyfOB-JlFhlg&expires=1760056801
+https://d15.epicquesthero.com:999/hls/skystennis.m3u8?md5=cbpnjQ7ra1A0k0bm0rv8aQ&expires=1760059023
 #EXTINF:-1 tvg-id="btsp1" tvg-logo="https://crichdi.com/assets/uploads/channels/10.gif", TNT Sports 1
-https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=27mUYRxSB8rqKo72g2P5SQ&expires=1760056801
+https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=wdvwOkxIUtuumoOG1kRylg&expires=1760059023
 #EXTINF:-1 tvg-id="btsp2" tvg-logo="https://crichdi.com/assets/uploads/channels/11.gif", TNT Sports 2
-https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=8RC7VXQ73nKa-0t1GVTfmw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=4ocLG6dvjl_OENbSOeS5Dw&expires=1760059023
 #EXTINF:-1 tvg-id="btsp3" tvg-logo="https://crichdi.com/assets/uploads/channels/12.gif", TNT Sports 3
-https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=JH-xiCQLFUr_1LKCbCB0hw&expires=1760056801
+https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=l4aMJt_YWVp50smJpRJaBg&expires=1760059023
 #EXTINF:-1 tvg-id="btsp4" tvg-logo="https://crichdi.com/assets/uploads/channels/13.gif", TNT Sports 4
-https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=5iskSWJFJ2ZXQ0FQfQ-TSA&expires=1760056801
+https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=kNK3x_BQsu4LWOP7knuN-w&expires=1760059023
 #EXTINF:-1 tvg-id="laligauk" tvg-logo="https://crichdi.com/assets/uploads/channels/54.png", Laliga Hd
-https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=5N2ZdsqQsAIUr7c1UvkHeQ&expires=1760056801
+https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=nu8NmpbzF1WGdAEmdJovcA&expires=1760059023
 #EXTINF:-1 tvg-id="ch5" tvg-logo="ch5", Ch5
-https://d15.epicquesthero.com:999/hls/hdchnl5.m3u8?md5=qsjtS1La24e3Ag_yVhQang&expires=1760056801
+https://d15.epicquesthero.com:999/hls/hdchnl5.m3u8?md5=tJWW8COIb3c3ZEoLdIjaEQ&expires=1760059023
 #EXTINF:-1 tvg-id="ch2" tvg-logo="", Premiar Sports
-https://d15.epicquesthero.com:999/hls/hdchnl2.m3u8?md5=TMuegDALvzQ18kz2cE5dHA&expires=1760056801
+https://d15.epicquesthero.com:999/hls/hdchnl2.m3u8?md5=_eUhvdP94YZpbP2YKESr3Q&expires=1760059023
