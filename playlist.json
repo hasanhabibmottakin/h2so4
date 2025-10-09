@@ -1,137 +1,137 @@
 {
-  "last_update": "2025-10-09T08:48:30.179945+00:00",
+  "last_update": "2025-10-09T09:21:15.878156+00:00",
   "channels": [
     {
       "tvg-id": "ptvpk",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/18.png",
       "name": "PTV Sports",
-      "url": "https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=TLVKrUxLIWMcBTzFvwGLoQ&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/ptvpk.m3u8?md5=sygNLuDQdEx-sPVAE6XVWQ&expires=1760008838"
     },
     {
       "tvg-id": "star",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png",
       "name": "Star sports 1 HD",
-      "url": "https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=MtZl5BAV6nt_PGRvjpCpMg&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/star1in.m3u8?md5=Nb6gESazOSFE1pAeJ_0HXQ&expires=1760008838"
     },
     {
       "tvg-id": "star1hi",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png",
       "name": "Star sports 1 Hindi HD",
-      "url": "https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=FDyvAF6rn-uTCy3mXKN2CQ&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=qpQUsRODS_G1Rj6QAqv-dA&expires=1760008838"
     },
     {
       "tvg-id": "sonyten1",
       "tvg-logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/21_266.png",
       "name": "Sony Ten 1",
-      "url": "https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=gmRIiX4pgpId80TE7HR9fg&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/ten1hd.m3u8?md5=ZpXon3d9Tql0uESNqXrmfA&expires=1760008838"
     },
     {
       "tvg-id": "sonymax",
       "tvg-logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png",
       "name": "Sony Ten 3",
-      "url": "https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=riOtsEFoBNNHHJ9N0yjZZA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/sonyespnind.m3u8?md5=OMutObXEQ14dkjaMdg1Giw&expires=1760008838"
     },
     {
       "tvg-id": "willowcricket",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/20.png",
       "name": "Willow Cricket",
-      "url": "https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=0Z1wVtW8ykADiidlh9sn0Q&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/willowusa.m3u8?md5=AA_JmaEOZyWsmYZrrKSrXA&expires=1760008838"
     },
     {
       "tvg-id": "willowextra",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/55.png",
       "name": "Willow Extra",
-      "url": "https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=NMNYDyhqvlBwMcjz3JoQ9w&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/willowextra.m3u8?md5=faldoqGkfZDQN30__g6UvA&expires=1760008838"
     },
     {
       "tvg-id": "asportshd",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/56.png",
       "name": "A Sports HD",
-      "url": "https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=YKkKzb6EXAHtKu4dWYRbvA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/asportshd.m3u8?md5=F1TQy4l5fMEwQrUq_XUYEA&expires=1760008838"
     },
     {
       "tvg-id": "sscricket",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/50.gif",
       "name": "Super Cricket",
-      "url": "https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=EmVBXtrSW47ITS4nMEfKqA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/supercricket.m3u8?md5=_8L5tccqr9nv3tTljB2DAA&expires=1760008838"
     },
     {
       "tvg-id": "skys1",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/137.png",
       "name": "Sky Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=prES_55mYKRzZM0eY_BHCQ&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skysme.m3u8?md5=jnObnnSY2pJbBBCtnPLXbg&expires=1760008838"
     },
     {
       "tvg-id": "skys2",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/138.png",
       "name": "Sky Sports 2",
-      "url": "https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=u21FOkuxFmMaSyCJMvnJbg&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skyscric.m3u8?md5=MRwIT8oFr_PJVNHHDr84dw&expires=1760008838"
     },
     {
       "tvg-id": "skys3",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/144.png",
       "name": "Sky Sports 3",
-      "url": "https://d15.epicquesthero.com:999/hls/skysact.m3u8?md5=cjp_suh084N9_Ny-MoqWYQ&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skysact.m3u8?md5=_0xTdvsumyb73tkyG3h2XA&expires=1760008838"
     },
     {
       "tvg-id": "skys4",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/139.png",
       "name": "Sky Sports 4",
-      "url": "https://d15.epicquesthero.com:999/hls/skysgol.m3u8?md5=jPTqnhF-6VBJ0flaETvW2Q&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skysgol.m3u8?md5=XL7IGDLlAzptCJv73_Ll4A&expires=1760008838"
     },
     {
       "tvg-id": "skys5",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/140.png",
       "name": "Sky Sports 5",
-      "url": "https://d15.epicquesthero.com:999/hls/skysprem.m3u8?md5=DVxOnWzVOv1IyX9-WgEWOA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skysprem.m3u8?md5=KCvx8E4XgqlzNCyksaFNVg&expires=1760008838"
     },
     {
       "tvg-id": "skystennis",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/12.gif",
       "name": "Skys Tennis",
-      "url": "https://d15.epicquesthero.com:999/hls/skystennis.m3u8?md5=F7b5e5LaZYZ8Pj18bKW7RA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/skystennis.m3u8?md5=kN80HbIvi2uPzmTvP7TjfQ&expires=1760008838"
     },
     {
       "tvg-id": "btsp1",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/10.gif",
       "name": "TNT Sports 1",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=HPjTiY_XXt37yYT3p3YFsw&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp1.m3u8?md5=D93wW7L_rdiP4bGnYNto0g&expires=1760008838"
     },
     {
       "tvg-id": "btsp2",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/11.gif",
       "name": "TNT Sports 2",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=0e4sL5kb9PSq57nfvOeBAA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp2.m3u8?md5=8ua2akYY361ubO0vO-h9DA&expires=1760008838"
     },
     {
       "tvg-id": "btsp3",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/12.gif",
       "name": "TNT Sports 3",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=TdB6aqzpavJgBHQqF4tDFA&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtsp3.m3u8?md5=HO1x_OWlRD87bzftBIn2Fg&expires=1760008838"
     },
     {
       "tvg-id": "btsp4",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/13.gif",
       "name": "TNT Sports 4",
-      "url": "https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=RG3zPzFb8UEkJrVsLVSPIg&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/bbtespn.m3u8?md5=C8mvmPDU64RKtSdUaon_Dw&expires=1760008838"
     },
     {
       "tvg-id": "laligauk",
       "tvg-logo": "https://crichdi.com/assets/uploads/channels/54.png",
       "name": "Laliga Hd",
-      "url": "https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=pQ7FaeNGkAb-RJW_J3YuOw&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/laligauk.m3u8?md5=baJ9UbdaEVRR7FCL3Bn2mQ&expires=1760008838"
     },
     {
       "tvg-id": "ch5",
       "tvg-logo": "ch5",
       "name": "Ch5",
-      "url": "https://d15.epicquesthero.com:999/hls/hdchnl5.m3u8?md5=QNyMCHq79KGWt6UcmD33AQ&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/hdchnl5.m3u8?md5=qeq1Hi6lzy1syPerNQhqag&expires=1760008838"
     },
     {
       "tvg-id": "ch2",
       "tvg-logo": "",
       "name": "Premiar Sports",
-      "url": "https://d15.epicquesthero.com:999/hls/hdchnl2.m3u8?md5=vl7at1tYZpT4k5nS_aYL8w&expires=1760006889"
+      "url": "https://d15.epicquesthero.com:999/hls/hdchnl2.m3u8?md5=o-mBg9WIBOw-2BtuBjvQig&expires=1760008838"
     }
   ]
 }
