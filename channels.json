@@ -1,4 +1,5 @@
 [
+  {"code": "tensp", "tvg-id": "tensp", "tvg-logo": "https://github.com/hasanhabibmottakin/h2so4/blob/main/logo/t_sports.png", "name": "T Sports HD"},
   {"code": "ptv", "tvg-id": "ptvpk", "tvg-logo": "https://crichdi.com/assets/uploads/channels/18.png", "name": "PTV Sports"},
   {"code": "star", "tvg-id": "star", "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png", "name": "Star sports 1 HD"},
   {"code": "star1hi", "tvg-id": "star1hi", "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png", "name": "Star sports 1 Hindi HD"},
@@ -20,8 +21,8 @@
   {"code": "espn", "tvg-id": "btsp4", "tvg-logo": "https://crichdi.com/assets/uploads/channels/13.gif", "name": "TNT Sports 4"},
   {"code": "laligauk", "tvg-id": "laligauk", "tvg-logo": "https://crichdi.com/assets/uploads/channels/54.png", "name": "Laliga Hd"},
   {"code": "ch5", "tvg-id": "ch5", "tvg-logo": "ch5", "name": "Ch5"},
-  {"code": "ch2", "tvg-id": "ch2", "tvg-logo": "", "name": "Premiar Sports"},
-  {"code": "ten3", "tvg-id": "ten3", "tvg-logo": "", "name": "Sony Sports 3"}
+  {"code": "ch2", "tvg-id": "ch2", "tvg-logo": "", "name": "Premiar Sports"}
+  
    
 
 ]
