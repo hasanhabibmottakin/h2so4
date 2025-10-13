@@ -21,8 +21,8 @@
   {"code": "espn", "tvg-id": "btsp4", "tvg-logo": "https://crichdi.com/assets/uploads/channels/13.gif", "name": "TNT Sports 4"},
   {"code": "laligauk", "tvg-id": "laligauk", "tvg-logo": "https://crichdi.com/assets/uploads/channels/54.png", "name": "Laliga Hd"},
   {"code": "ch5", "tvg-id": "ch5", "tvg-logo": "ch5", "name": "Ch5"},
-  {"code": "ch2", "tvg-id": "ch2", "tvg-logo": "", "name": "Premiar Sports"}
-  
+  {"code": "ch2", "tvg-id": "ch2", "tvg-logo": "", "name": "Premiar Sports"},
+  {"code": "skysfor1", "tvg-id": "skysfor1", "tvg-logo": "skysfor1", "name": "Sky Sport F1"}
    
 
 ]
