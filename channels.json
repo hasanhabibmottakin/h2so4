@@ -1,5 +1,5 @@
 [
-  {"code": "tensp", "tvg-id": "tensp", "tvg-logo": "https://github.com/hasanhabibmottakin/h2so4/blob/main/logo/t_sports.png", "name": "T Sports HD"},
+  {"code": "tensp", "tvg-id": "tensp", "tvg-logo": "https://raw.githubusercontent.com/hasanhabibmottakin/h2so4/main/img/t_sports.png", "name": "T Sports HD"},
   {"code": "ptv", "tvg-id": "ptvpk", "tvg-logo": "https://crichdi.com/assets/uploads/channels/18.png", "name": "PTV Sports"},
   {"code": "star", "tvg-id": "star", "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png", "name": "Star sports 1 HD"},
   {"code": "star1hi", "tvg-id": "star1hi", "tvg-logo": "https://crichdi.com/assets/uploads/channels/19.png", "name": "Star sports 1 Hindi HD"},
@@ -7,7 +7,7 @@
   {"code": "sonymax", "tvg-id": "sonymax", "tvg-logo": "https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/25_276.png", "name": "Sony Ten 3"},
   {"code": "willowcricket", "tvg-id": "willowcricket", "tvg-logo": "https://crichdi.com/assets/uploads/channels/20.png", "name": "Willow Cricket"},
   {"code": "willowextra", "tvg-id": "willowextra", "tvg-logo": "https://crichdi.com/assets/uploads/channels/55.png", "name": "Willow Extra"},
-  {"code": "asportshd", "tvg-id": "asportshd", "tvg-logo": "https://crichdi.com/assets/uploads/channels/56.png", "name": "A Sports HD"},
+  {"code": "asportshd", "tvg-id": "asportshd", "tvg-logo": "https://raw.githubusercontent.com/hasanhabibmottakin/h2so4/main/img/asports.jpg", "name": "A Sports HD"},
   {"code": "sscricket", "tvg-id": "sscricket", "tvg-logo": "https://crichdi.com/assets/uploads/channels/50.gif", "name": "Super Cricket"},
   {"code": "skys1", "tvg-id": "skys1", "tvg-logo":"https://crichdi.com/assets/uploads/channels/137.png", "name": "Sky Sports 1"},
   {"code": "skys2", "tvg-id": "skys2", "tvg-logo": "https://crichdi.com/assets/uploads/channels/138.png", "name": "Sky Sports 2"},
