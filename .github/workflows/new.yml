@@ -1,0 +1,87 @@
+name: Fetch Streams
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: curl
+
+      - name: Run extractor (INLINE PHP ONLY)
+        shell: bash
+        run: |
+          php -r '
+          $channels = json_decode(file_get_contents("channels.json"), true);
+
+          $output = [];
+          $playlist = "#EXTM3U\n";
+
+          function getPage($u){
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $u);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+              "User-Agent: Mozilla/5.0",
+              "Referer: https://streamcrichd.com/"
+            ]);
+            $res = curl_exec($ch);
+            curl_close($ch);
+            return $res;
+          }
+
+          foreach($channels as $c){
+              $id = $c["code"];
+              $u = "https://profamouslife.com/premium.php?player=mobile&live={$id}";
+              $html = getPage($u);
+
+              preg_match('/id=\"aukifisrtntegahScB\">([^<]+)</', $html, $m);
+              $inner = $m[1] ?? "";
+
+              preg_match("/return \\(\\[(.*?)\\]/s", $html, $a);
+              $arrA = isset($a[1]) ? explode(\",\", str_replace([\"'\", '\"'], \"\", $a[1])) : [];
+
+              preg_match('/sSgaAurrryaienUtlrabe = \\[(.*?)\\]/s', $html, $b);
+              $arrB = isset($b[1]) ? explode(\",\", str_replace([\"'\", '\"'], \"\", $b[1])) : [];
+
+              $arrA = array_map(\"trim\", $arrA);
+              $arrB = array_map(\"trim\", $arrB);
+
+              $final = implode(\"\", $arrA) . implode(\"\", $arrB) . $inner;
+
+              $output[] = [
+                  \"code\" => $c[\"code\"],
+                  \"name\" => $c[\"name\"],
+                  \"logo\" => $c[\"tvg-logo\"],
+                  \"url\"  => $final
+              ];
+
+              $playlist .= \"#EXTINF:-1 tvg-id=\\\"{$c['tvg-id']}\\\" tvg-logo=\\\"{$c['tvg-logo']}\\\",{$c['name']}\\n\";
+              $playlist .= $final . \"\\n\";
+          }
+
+          file_put_contents(\"output.json\", json_encode($output, JSON_PRETTY_PRINT));
+          file_put_contents(\"playlist.m3u\", $playlist);
+          echo \"DONE\";
+          '
+      
+      - name: Commit & Push
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add output.json playlist.m3u
+          git commit -m "Auto Stream Update" || echo "No changes"
+          git push || echo "No changes"
