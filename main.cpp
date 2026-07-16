@@ -25,9 +25,12 @@ string g(const string& u) {
         curl_easy_setopt(c1, CURLOPT_WRITEFUNCTION, w);
         curl_easy_setopt(c1, CURLOPT_WRITEDATA, &b);
         curl_easy_setopt(c1, CURLOPT_FOLLOWLOCATION, 1L);
-        curl_easy_setopt(c1, CURLOPT_USERAGENT, "Mozilla/5.0");
+        curl_easy_setopt(c1, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
+        curl_easy_setopt(c1, CURLOPT_SSL_VERIFYPEER, 0L);
+        curl_easy_setopt(c1, CURLOPT_SSL_VERIFYHOST, 0L);
         
         r = curl_easy_perform(c1);
+        if(r != CURLE_OK) cout << "CE:" << curl_easy_strerror(r) << endl;
         curl_easy_cleanup(c1);
     }
     return b;
@@ -38,19 +41,28 @@ int main() {
     const char* e2 = getenv("dkskdsk");
     const char* e3 = getenv("sksdks");
 
-    if (!e1 || !e2 || !e3) return 1;
+    if (!e1 || !e2 || !e3) { 
+        cout << "E:ENV" << endl; 
+        return 1; 
+    }
 
     string u1 = e1;
     string u2 = e2;
     string u3 = e3;
 
     ofstream f("playlist.m3u");
-    if (!f.is_open()) return 1;
+    if (!f.is_open()) { 
+        cout << "E:FILE" << endl; 
+        return 1; 
+    }
     
     f << "#EXTM3U\n";
 
     string r1 = g(u1);
-    if (r1.empty()) return 1;
+    if (r1.empty()) { 
+        cout << "E:API_EMPTY" << endl; 
+        return 1; 
+    }
 
     try {
         json j1 = json::parse(r1);
@@ -78,7 +90,8 @@ int main() {
                 }
             }
         }
-    } catch (...) {
+    } catch (exception& ex) {
+        cout << "E:JSON " << ex.what() << endl;
         return 1;
     }
 
